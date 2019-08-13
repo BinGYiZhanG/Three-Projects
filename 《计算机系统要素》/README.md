@@ -3,6 +3,7 @@
   * 可以拷贝一个jar到kettle的安装目录下，然后将jre重命名为java,
   * 注：我只是拷贝javaw到tools目录下，然后命令行激活```HardwareSimulator```
 * 3,不能将```nand2tetris```文件夹放置在C盘（准确的说不能放在Program File (x86)）下，否则，可能存在写保护，无法运行程序
+* 注：不一定是写保护，而仅仅是.hdl文件代码编写不对（一开始就是这个问题）
 * 4,程序运行步骤
   * 工具分为tools和project两个文件夹，打开tools文件夹，打开hardwaresimulator.bat，
   * 在project文件夹中，编辑hdl文件，写入代码，保存后在硬件仿真器中load chip,
