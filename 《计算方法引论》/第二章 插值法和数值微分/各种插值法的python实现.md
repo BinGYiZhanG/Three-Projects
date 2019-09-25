@@ -36,4 +36,7 @@ pl.show()
 ```
 
 
+### 二维插值
+
+#### [scipy.interpolate.interp2d函数介绍](https://docs.scipy.org/doc/scipy-0.19.1/reference/generated/scipy.interpolate.interp2d.html#scipy.interpolate.interp2d)
 
